@@ -25,6 +25,6 @@ Independent agents executed 12 representative cases across all seven skills and 
 - sprint review, retrospective, release planning, and specification authoring;
 - all three lifecycle cases and sprint-free/continuous-flow backlog resets.
 
-Nine outputs contained explicit grades for 45 assertions: 45 passed and none failed. The other three generated outputs were read back against their ticket/triage/readiness assertions; no fabricated owners, dates, priorities, thresholds, remote mutations, or organization-specific claims were found.
+All 12 outputs passed all five assertions: **60/60 PASS**. No fabricated owners, dates, priorities, thresholds, remote mutations, or organization-specific claims were found. One specification case produced moderate but justified boilerplate because its prompt referred to discovery notes without supplying them; the output correctly remained a source-ingestion scaffold instead of inventing content.
 
 This is behavioural smoke evidence, not a statistically rigorous benchmark or trigger-optimization result. The reusable eval definitions remain the source for future model/version comparisons.
