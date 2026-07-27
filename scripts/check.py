@@ -12,7 +12,7 @@ def read(p):
 def load(p):
     try: return json.loads(read(p))
     except json.JSONDecodeError as e: fail(f'invalid JSON {p.relative_to(ROOT)}: {e}'); return None
-for rel in ['README.md','LICENSE','CONTRIBUTING.md','docs/framework-basis.md','docs/design-decisions.md','docs/framework-gaps.md','docs/notion-linear-model.md','docs/research-sources.md','docs/evaluation.md','.claude-plugin/plugin.json','.claude-plugin/marketplace.json','scripts/package_skill.py','scripts/check_packages.py']:
+for rel in ['README.md','LICENSE','CONTRIBUTING.md','docs/framework-basis.md','docs/design-decisions.md','docs/framework-gaps.md','docs/notion-linear-model.md','docs/research-sources.md','docs/evaluation.md','examples/README.md','examples/harbor-recurring-reservations/README.md','examples/harbor-recurring-reservations/00-source-context.md','.claude-plugin/plugin.json','.claude-plugin/marketplace.json','scripts/package_skill.py','scripts/check_packages.py']:
     read(ROOT/rel)
 skill_dirs=sorted(p for p in SKILLS.iterdir() if (p/'SKILL.md').is_file()) if SKILLS.is_dir() else []
 if len(skill_dirs)<2: fail('expected multiple skills')
@@ -57,6 +57,31 @@ for name,phrases in semantic_contracts.items():
     corpus=read(SKILLS/name/'SKILL.md')+'\n'+''.join(read(p) for p in (SKILLS/name/'references').glob('*.md'))
     for phrase in phrases:
         if phrase not in corpus: fail(f'{name}: missing semantic contract phrase {phrase!r}')
+example_dir=ROOT/'examples/harbor-recurring-reservations'
+example_outputs={
+    '01-backlog-reset.md':'delivery-backlog-reset',
+    '02-work-triage.md':'delivery-work-triage',
+    '03-lifecycle-guidance.md':'delivery-lifecycle-guidance',
+    '04-ticket-writing.md':'delivery-ticket-writing',
+    '05-artifact-authoring.md':'delivery-artifact-authoring',
+    '06-readiness-audit.md':'delivery-readiness-audit',
+    '07-ceremony-facilitation.md':'delivery-ceremony-facilitation',
+}
+example_index=read(example_dir/'README.md')
+source_context=read(example_dir/'00-source-context.md')
+traceability=read(example_dir/'08-traceability.md')
+if 'Everything in this directory is fictional' not in source_context:
+    fail('Harbor example: source context must state that all facts are fictional')
+if 'No live Linear or Notion records were created' not in example_index:
+    fail('Harbor example: index must disclaim remote record creation')
+for filename,skill_name in example_outputs.items():
+    text=read(example_dir/filename)
+    if f'# Skill execution: {skill_name}' not in text:
+        fail(f'Harbor example: {filename} does not identify {skill_name}')
+    if skill_name not in example_index:
+        fail(f'Harbor example: index missing {skill_name}')
+    if skill_name not in traceability:
+        fail(f'Harbor example: traceability missing {skill_name}')
 public_corpus='\n'.join(read(p) for p in ROOT.rglob('*.md') if not any(x in p.parts for x in ['.git','dist']))
 for forbidden in ['Application Insights','LaunchDarkly','Rootly','Databricks','Amplitude','Stan']:
     if forbidden in public_corpus: fail(f'organization-specific tool leaked into public content: {forbidden}')

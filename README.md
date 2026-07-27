@@ -2,7 +2,7 @@
 
 Portable Agent Skills for facilitating software and knowledge-work delivery with **Linear** as the work system of record and **Notion** as the durable documentation system.
 
-The collection is generic: it contains no organization-specific claims, names, thresholds, or policy. When a workspace has its own delivery framework, templates, definitions, or tool conventions, those local decisions take precedence.
+The reusable skills and framework documentation are generic: they contain no real organization-specific claims, names, thresholds, or policy. The `examples/` directory uses clearly labelled fictional data only. When a workspace has its own delivery framework, templates, definitions, or tool conventions, those local decisions take precedence.
 
 ## Skills
 
@@ -28,6 +28,10 @@ The collection is generic: it contains no organization-specific claims, names, t
 - Close the loop: observations and learnings become explicit work or explicit no-action decisions.
 
 See [framework basis](docs/framework-basis.md), [inherited design decisions](docs/design-decisions.md), [source gaps and portability decisions](docs/framework-gaps.md), [tool model](docs/notion-linear-model.md), and [research sources](docs/research-sources.md).
+
+## End-to-end example
+
+The [Harbor recurring reservations showcase](examples/harbor-recurring-reservations/README.md) executes all seven skills against one fictional story—from backlog reset and intake through artefacts, readiness, staged release, review, retrospective, and outcome closure.
 
 ## Install
 
