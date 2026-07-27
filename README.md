@@ -27,7 +27,7 @@ The collection is generic: it contains no organization-specific claims, names, t
 - Prefer small, demonstrable, observable, and recoverable changes.
 - Close the loop: observations and learnings become explicit work or explicit no-action decisions.
 
-See [framework basis](docs/framework-basis.md), [inherited design decisions](docs/design-decisions.md), [tool model](docs/notion-linear-model.md), and [research sources](docs/research-sources.md).
+See [framework basis](docs/framework-basis.md), [inherited design decisions](docs/design-decisions.md), [source gaps and portability decisions](docs/framework-gaps.md), [tool model](docs/notion-linear-model.md), and [research sources](docs/research-sources.md).
 
 ## Install
 

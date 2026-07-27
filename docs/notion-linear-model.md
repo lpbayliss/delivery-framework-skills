@@ -4,7 +4,7 @@
 
 ### Linear
 
-Use for issues/tickets and sub-issues/tasks, owner, team, workflow status, backlog order, priority, estimate, cycle, project, blocking/related/duplicate relations, comments, current decisions, and progress.
+Use for issues/tickets and parent/sub-issues/tasks, owner, team, workflow status, backlog order, priority, estimate, cycle, project, blocking/related/duplicate relations, comments, current decisions, and progress. Preserve the exact team-specific status as well as any normalized lifecycle category; do not hard-code default status names.
 
 ### Notion
 
@@ -22,9 +22,15 @@ Use for durable specifications, design records, test strategies, release plans, 
 
 - Linear Triage is a special inbox and may be disabled. A skill can still produce a triage decision table for manual use.
 - Linear cycles are optional and are not releases.
+- A Linear issue belongs to one team and currently no more than one project. Treat that as a product constraint, not a universal delivery rule.
+- Linear views are saved queries over underlying work, not copied collections. Relation types and direction matter: blocked, blocking, related, and duplicate are not interchangeable.
 - Workspace- and team-level Linear templates expose different properties; form templates and some triage automation may depend on plan/configuration.
 - Notion database templates are local to a database. Relations in exported CSV become plain text and are not restored by re-import.
+- Notion linked views contextualize the same source records; they do not duplicate them or bypass source permissions. Rollups are derived projections, not canonical facts.
+- Notion status categories do not automatically map to a Linear team's workflow. Preserve original values when a mapping is needed.
 - Product behavior changes. Inspect the connected workspace and current official docs before bulk configuration.
+
+No native bidirectional synchronization, webhook behavior, API coverage, or mutation capability is assumed. Verify the actual integration before designing automation.
 
 ## No-API mode
 

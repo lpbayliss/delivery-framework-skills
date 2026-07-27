@@ -23,7 +23,7 @@ Do not invent business facts, priorities, owners, estimates, dates, thresholds, 
 1. Select an artefact from [the artefact catalogue](references/artefact-catalogue.md).
 2. Read the initiative/ticket, preceding artefacts, decisions, evidence, constraints, and workspace template.
 3. Identify the decision this artefact must support and its reviewers.
-4. Draft only supported facts. Label assumptions, options, unresolved questions, and decision owners.
+4. Draft only supported facts. Label assumptions, options, unresolved questions, decision owners, and any `framework gap` where the workspace/source has no approved policy or template.
 5. Scale sections to size and risk. Delete irrelevant headings rather than filling them with boilerplate.
 6. Check traceability: intended outcome → design/scope → acceptance/testing → release/recovery → observation/learning.
 7. Put durable depth in Notion and concise execution facts/links on Linear.

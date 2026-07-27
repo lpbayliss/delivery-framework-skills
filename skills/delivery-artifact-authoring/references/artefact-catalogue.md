@@ -13,7 +13,7 @@ Quality risks, in/out of scope, acceptance mapping, manual/automated/regression 
 Release unit, prerequisites, sequencing, feature controls where available, rollout stages, communication, monitoring and verification, rollback/recovery, decision owners, completion criteria.
 
 ## Monitoring and measurement plan
-Intended outcome measures, product/process indicators, service health signals, baselines/targets only when supplied, dashboard audience, alert symptoms/threshold ownership, response/runbook, review window, follow-up path.
+Intended outcome measures, product/process indicators, service health signals, baselines/targets only when supplied, dashboard audience, alert symptoms/threshold ownership, response/runbook, review window, follow-up path. Treat Development as creating initial observability and Monitoring as operating, validating, and tuning it unless the workspace says otherwise.
 
 ## Postmortem
 For incidents: summary, impact, timeline, detection, response/recovery, contributing conditions, what worked, what did not, lessons, corrective/preventive actions with owners/dates, review/publication metadata.

@@ -4,9 +4,9 @@
 
 ## Evidence
 
-## Gate assessment
+## Gate assessment (`pass` / `conditional` / `fail`)
 
-## Next decision and accountable hat
+## Next decision and accountable hat / named resolver
 
 ## Next action / ceremony / artefact
 

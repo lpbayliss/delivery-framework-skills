@@ -4,10 +4,14 @@ The supplied framework was the primary design input. These sources supplement it
 
 ## Delivery and flow
 
+- [Manifesto for Agile Software Development](https://agilemanifesto.org/) — primary values behind iterative, collaborative delivery; it does not prescribe a ticket template or ceremony set.
 - [The Scrum Guide (2020)](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf) — purposes of planning, Daily Scrum, review, retrospective, backlog refinement, goals, and Definition of Done.
 - [The Kanban Guide (May 2025)](https://kanbanguides.org/the-kanban-guide) — Definition of Workflow, explicit policies, WIP control, pull, work-item age, throughput, cycle time, and continuous improvement.
 - [DORA software delivery performance metrics](https://dora.dev/guides/dora-metrics) — delivery outcome measures, small batches, context-sensitive measurement, and warnings against cross-team competition or metrics as targets.
 - [DORA: working in small batches](https://dora.dev/capabilities/working-in-small-batches/) — reducing risk and increasing feedback through smaller changes.
+- [INVEST in Good Stories (Bill Wake)](https://xp123.com/invest-in-good-stories-and-smart-tasks/) — a heuristic for discussing story quality, not a mandatory gate.
+- [Cucumber Gherkin reference](https://cucumber.io/docs/gherkin/reference) — Given/When/Then syntax where example-based acceptance improves precision; not required for every criterion.
+- [MoSCoW prioritisation (Agile Business Consortium)](https://www.agilebusiness.org/resource/what-is-moscow-prioritization/) — optional scope-negotiation vocabulary; it does not replace a single relative backlog order.
 
 ## Reliability and learning
 

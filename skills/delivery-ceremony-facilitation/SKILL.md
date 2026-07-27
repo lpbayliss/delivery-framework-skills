@@ -5,7 +5,7 @@ description: Prepare, facilitate, and document delivery ceremonies: kickoff, spr
 
 # Delivery Ceremony Facilitation
 
-Every ceremony needs an intended decision or outcome, a facilitator/MC, the necessary hats, a timebox, and a durable record. Adapt ceremony names and cadence to the team's operating model.
+Every ceremony needs an intended decision or outcome, a facilitator/MC, the necessary hats, a timebox, and a durable record. The facilitator hat may rotate; adapt ceremony names and cadence to the team's operating model.
 
 ## Source precedence
 

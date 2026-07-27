@@ -23,7 +23,7 @@ Do not invent business facts, priorities, owners, estimates, dates, thresholds, 
 1. Read the initiative, Linear state/order, linked Notion artefacts, current owner, and observed evidence.
 2. Map evidence to [the lifecycle map](references/lifecycle-map.md). Do not infer a phase from a status name alone.
 3. Identify the current unresolved decision and accountable hat.
-4. Test the relevant exit gate. Separate satisfied evidence, missing evidence, and irrelevant generic requirements.
+4. Test the relevant exit gate and classify the evidence as `pass`, `conditional`, or `fail`. Separate satisfied evidence, missing evidence, and irrelevant generic requirements. Evidence passing is not organizational approval when authority is undefined.
 5. Recommend one next move: progress, remain, return, split, pause, close, or monitor.
 6. Name the smallest next artefact or ceremony needed. Avoid generating documents that do not resolve a decision.
 7. State what belongs in Linear and what belongs in Notion.
@@ -34,8 +34,8 @@ Use `templates/lifecycle-assessment.md` as the default paste-ready structure.
 
 - **Current phase and confidence**
 - **Evidence**
-- **Gate assessment**
-- **Next decision and accountable hat**
+- **Gate assessment** — `pass`, `conditional`, or `fail`, with evidence and missing decisions
+- **Next decision and accountable hat / named resolver**
 - **Next action / ceremony / artefact**
 - **Linear and Notion updates**
 - **Risks or contradictions**

@@ -12,7 +12,7 @@ def read(p):
 def load(p):
     try: return json.loads(read(p))
     except json.JSONDecodeError as e: fail(f'invalid JSON {p.relative_to(ROOT)}: {e}'); return None
-for rel in ['README.md','LICENSE','CONTRIBUTING.md','docs/framework-basis.md','docs/design-decisions.md','docs/notion-linear-model.md','docs/research-sources.md','docs/evaluation.md','.claude-plugin/plugin.json','.claude-plugin/marketplace.json','scripts/package_skill.py','scripts/check_packages.py']:
+for rel in ['README.md','LICENSE','CONTRIBUTING.md','docs/framework-basis.md','docs/design-decisions.md','docs/framework-gaps.md','docs/notion-linear-model.md','docs/research-sources.md','docs/evaluation.md','.claude-plugin/plugin.json','.claude-plugin/marketplace.json','scripts/package_skill.py','scripts/check_packages.py']:
     read(ROOT/rel)
 skill_dirs=sorted(p for p in SKILLS.iterdir() if (p/'SKILL.md').is_file()) if SKILLS.is_dir() else []
 if len(skill_dirs)<2: fail('expected multiple skills')
