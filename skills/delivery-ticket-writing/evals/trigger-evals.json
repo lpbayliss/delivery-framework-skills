@@ -1,0 +1,82 @@
+[
+  {
+    "query": "Turn these rough notes into a Linear issue",
+    "should_trigger": true
+  },
+  {
+    "query": "Write acceptance criteria for this bug",
+    "should_trigger": true
+  },
+  {
+    "query": "Create a spike ticket for the unknown API behavior",
+    "should_trigger": true
+  },
+  {
+    "query": "Split this oversized story into deliverable tickets",
+    "should_trigger": true
+  },
+  {
+    "query": "Improve ENG-123 so it is ready to pull",
+    "should_trigger": true
+  },
+  {
+    "query": "Draft a technical debt issue from these incidents",
+    "should_trigger": true
+  },
+  {
+    "query": "Make a child task under this delivery ticket",
+    "should_trigger": true
+  },
+  {
+    "query": "Use our Linear bug template for this report",
+    "should_trigger": true
+  },
+  {
+    "query": "Convert this Notion spec into tickets",
+    "should_trigger": true
+  },
+  {
+    "query": "This story says what to build but not why; fix it",
+    "should_trigger": true
+  },
+  {
+    "query": "Summarize this finished issue for release notes",
+    "should_trigger": false
+  },
+  {
+    "query": "Delete these Linear issues",
+    "should_trigger": false
+  },
+  {
+    "query": "Explain what Linear is",
+    "should_trigger": false
+  },
+  {
+    "query": "Facilitate our sprint retrospective",
+    "should_trigger": false
+  },
+  {
+    "query": "Audit the whole backlog for stale work",
+    "should_trigger": false
+  },
+  {
+    "query": "Write a Notion architecture RFC only",
+    "should_trigger": false
+  },
+  {
+    "query": "Estimate my personal chores",
+    "should_trigger": false
+  },
+  {
+    "query": "Debug this code without creating work items",
+    "should_trigger": false
+  },
+  {
+    "query": "Create a GitHub pull request",
+    "should_trigger": false
+  },
+  {
+    "query": "Tell me today\u2019s news",
+    "should_trigger": false
+  }
+]

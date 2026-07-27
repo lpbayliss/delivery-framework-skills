@@ -1,0 +1,27 @@
+{
+  "name": "delivery-framework-skills",
+  "owner": {
+    "name": "Luke Bayliss",
+    "url": "https://github.com/lpbayliss"
+  },
+  "description": "Portable delivery facilitation skills maintained by Luke Bayliss.",
+  "plugins": [
+    {
+      "name": "delivery-framework",
+      "source": "./",
+      "description": "Delivery tickets, triage, readiness, ceremonies, artefacts, and lifecycle guidance for Linear and Notion.",
+      "homepage": "https://github.com/lpbayliss/delivery-framework-skills",
+      "repository": "https://github.com/lpbayliss/delivery-framework-skills",
+      "license": "MIT",
+      "category": "development",
+      "tags": [
+        "delivery",
+        "linear",
+        "notion",
+        "planning",
+        "triage",
+        "facilitation"
+      ]
+    }
+  ]
+}

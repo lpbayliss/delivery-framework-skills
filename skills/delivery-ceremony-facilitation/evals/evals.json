@@ -1,0 +1,47 @@
+{
+  "skill_name": "delivery-ceremony-facilitation",
+  "evals": [
+    {
+      "id": 1,
+      "kind": "review",
+      "prompt": "Prepare tomorrow\u2019s sprint review. We have a cycle goal, three finished items, one unfinished item, demo links, and early health metrics.",
+      "expected_output": "A role-based, timed review pack focused on live evidence, commitments, feedback, and backlog decisions.",
+      "files": [],
+      "assertions": [
+        "Uses supplied/workspace facts before generic defaults",
+        "Does not invent business facts, owners, estimates, dates, thresholds, or commitments",
+        "Produces the requested paste-ready decision or artefact",
+        "Uses Linear for work and Notion for durable context where relevant",
+        "Scales detail to position and risk"
+      ]
+    },
+    {
+      "id": 2,
+      "kind": "retro",
+      "prompt": "Facilitate a retro after repeated carryover and slow reviews. No blame and no generic start/stop/continue board.",
+      "expected_output": "A fact-based agenda ending in one or two owned, measurable experiments with review dates.",
+      "files": [],
+      "assertions": [
+        "Uses supplied/workspace facts before generic defaults",
+        "Does not invent business facts, owners, estimates, dates, thresholds, or commitments",
+        "Produces the requested paste-ready decision or artefact",
+        "Uses Linear for work and Notion for durable context where relevant",
+        "Scales detail to position and risk"
+      ]
+    },
+    {
+      "id": 3,
+      "kind": "postmortem",
+      "prompt": "Create a facilitation pack for a postmortem after an incident was detected by a customer and rollback took 40 minutes.",
+      "expected_output": "A blameless systemic agenda covering impact, timeline, detection, response, causes, and preventive actions.",
+      "files": [],
+      "assertions": [
+        "Uses supplied/workspace facts before generic defaults",
+        "Does not invent business facts, owners, estimates, dates, thresholds, or commitments",
+        "Produces the requested paste-ready decision or artefact",
+        "Uses Linear for work and Notion for durable context where relevant",
+        "Scales detail to position and risk"
+      ]
+    }
+  ]
+}

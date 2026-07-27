@@ -1,0 +1,47 @@
+{
+  "skill_name": "delivery-ticket-writing",
+  "evals": [
+    {
+      "id": 1,
+      "kind": "deliverable",
+      "prompt": "Turn these notes into a Linear deliverable ticket: users abandon the import when malformed rows produce only \u201cfailed\u201d. We want a downloadable error report. We do not yet know the owner, estimate, or rollout date.",
+      "expected_output": "A paste-ready deliverable ticket that preserves unknown properties and includes observable acceptance and risk-scaled test/release notes.",
+      "files": [],
+      "assertions": [
+        "Uses supplied/workspace facts before generic defaults",
+        "Does not invent business facts, owners, estimates, dates, thresholds, or commitments",
+        "Produces the requested paste-ready decision or artefact",
+        "Uses Linear for work and Notion for durable context where relevant",
+        "Scales detail to position and risk"
+      ]
+    },
+    {
+      "id": 2,
+      "kind": "bug",
+      "prompt": "Draft a bug ticket from: Android 15 users see a blank screen after returning from background; logs show a failed token refresh; reproduced twice but scope is unknown.",
+      "expected_output": "A factual bug report separating impact from priority, with evidence, reproduction, expected behavior, and regression coverage.",
+      "files": [],
+      "assertions": [
+        "Uses supplied/workspace facts before generic defaults",
+        "Does not invent business facts, owners, estimates, dates, thresholds, or commitments",
+        "Produces the requested paste-ready decision or artefact",
+        "Uses Linear for work and Notion for durable context where relevant",
+        "Scales detail to position and risk"
+      ]
+    },
+    {
+      "id": 3,
+      "kind": "spike",
+      "prompt": "Create a spike to decide whether to stream or batch a large export. We need evidence before committing to implementation.",
+      "expected_output": "A timeboxed decision-oriented spike with options, evidence, exit criteria, and no implementation promise.",
+      "files": [],
+      "assertions": [
+        "Uses supplied/workspace facts before generic defaults",
+        "Does not invent business facts, owners, estimates, dates, thresholds, or commitments",
+        "Produces the requested paste-ready decision or artefact",
+        "Uses Linear for work and Notion for durable context where relevant",
+        "Scales detail to position and risk"
+      ]
+    }
+  ]
+}

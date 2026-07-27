@@ -1,0 +1,82 @@
+[
+  {
+    "query": "What happens next for this initiative?",
+    "should_trigger": true
+  },
+  {
+    "query": "Is this work ready to leave Discovery?",
+    "should_trigger": true
+  },
+  {
+    "query": "Which delivery phase are we in?",
+    "should_trigger": true
+  },
+  {
+    "query": "Who owns the next gate decision?",
+    "should_trigger": true
+  },
+  {
+    "query": "Should this go back to refinement?",
+    "should_trigger": true
+  },
+  {
+    "query": "Map these artefacts to the delivery lifecycle",
+    "should_trigger": true
+  },
+  {
+    "query": "Has this release passed Validating?",
+    "should_trigger": true
+  },
+  {
+    "query": "What evidence closes Monitoring?",
+    "should_trigger": true
+  },
+  {
+    "query": "Do we need a ceremony or an artefact next?",
+    "should_trigger": true
+  },
+  {
+    "query": "Explain the path from idea to learning for this request",
+    "should_trigger": true
+  },
+  {
+    "query": "Write detailed acceptance criteria for this bug",
+    "should_trigger": false
+  },
+  {
+    "query": "Facilitate the retrospective",
+    "should_trigger": false
+  },
+  {
+    "query": "Triage all incoming issues",
+    "should_trigger": false
+  },
+  {
+    "query": "Build the feature",
+    "should_trigger": false
+  },
+  {
+    "query": "Create a monitoring dashboard in code",
+    "should_trigger": false
+  },
+  {
+    "query": "Delete a stale backlog",
+    "should_trigger": false
+  },
+  {
+    "query": "Calculate DORA metrics",
+    "should_trigger": false
+  },
+  {
+    "query": "Write release notes for a completed version",
+    "should_trigger": false
+  },
+  {
+    "query": "Configure Notion permissions",
+    "should_trigger": false
+  },
+  {
+    "query": "Summarize a postmortem",
+    "should_trigger": false
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "skill_name": "delivery-artifact-authoring",
+  "evals": [
+    {
+      "id": 1,
+      "kind": "release",
+      "prompt": "Write a release plan for a risky data migration with staged rollout, verification, and recovery, but no supplied dates or thresholds.",
+      "expected_output": "A risk-scaled release plan that marks missing decisions instead of inventing them.",
+      "files": [],
+      "assertions": [
+        "Uses supplied/workspace facts before generic defaults",
+        "Does not invent business facts, owners, estimates, dates, thresholds, or commitments",
+        "Produces the requested paste-ready decision or artefact",
+        "Uses Linear for work and Notion for durable context where relevant",
+        "Scales detail to position and risk"
+      ]
+    },
+    {
+      "id": 2,
+      "kind": "spec",
+      "prompt": "Turn discovery notes into a Notion specification without prematurely choosing an implementation.",
+      "expected_output": "A problem/outcome/evidence/scope specification with assumptions and review questions.",
+      "files": [],
+      "assertions": [
+        "Uses supplied/workspace facts before generic defaults",
+        "Does not invent business facts, owners, estimates, dates, thresholds, or commitments",
+        "Produces the requested paste-ready decision or artefact",
+        "Uses Linear for work and Notion for durable context where relevant",
+        "Scales detail to position and risk"
+      ]
+    },
+    {
+      "id": 3,
+      "kind": "monitoring",
+      "prompt": "Create a monitoring plan that separates success metrics from service health and alerts.",
+      "expected_output": "A plan with outcome measures, health signals, dashboards, actionable alerts, ownership, and follow-up.",
+      "files": [],
+      "assertions": [
+        "Uses supplied/workspace facts before generic defaults",
+        "Does not invent business facts, owners, estimates, dates, thresholds, or commitments",
+        "Produces the requested paste-ready decision or artefact",
+        "Uses Linear for work and Notion for durable context where relevant",
+        "Scales detail to position and risk"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "skill_name": "delivery-readiness-audit",
+  "evals": [
+    {
+      "id": 1,
+      "kind": "cycle",
+      "prompt": "Audit a next-cycle list where two issues have no acceptance criteria, one is blocked, one rolled over twice, and three distant items have only titles.",
+      "expected_output": "A horizon-sensitive audit that flags near-term gaps and leaves legitimate distant work lightweight.",
+      "files": [],
+      "assertions": [
+        "Uses supplied/workspace facts before generic defaults",
+        "Does not invent business facts, owners, estimates, dates, thresholds, or commitments",
+        "Produces the requested paste-ready decision or artefact",
+        "Uses Linear for work and Notion for durable context where relevant",
+        "Scales detail to position and risk"
+      ]
+    },
+    {
+      "id": 2,
+      "kind": "active",
+      "prompt": "Find what needs intervention in started work: one unassigned, one untouched for 18 days, one blocked without an unblock owner, and one active with clear next action.",
+      "expected_output": "A flow-focused report separating intervention from healthy work without inventing a stale threshold.",
+      "files": [],
+      "assertions": [
+        "Uses supplied/workspace facts before generic defaults",
+        "Does not invent business facts, owners, estimates, dates, thresholds, or commitments",
+        "Produces the requested paste-ready decision or artefact",
+        "Uses Linear for work and Notion for durable context where relevant",
+        "Scales detail to position and risk"
+      ]
+    },
+    {
+      "id": 3,
+      "kind": "project",
+      "prompt": "Prepare a 45-minute refinement shortlist from a project with 30 issues.",
+      "expected_output": "A prioritized, timeboxed shortlist rather than rewriting all 30 issues.",
+      "files": [],
+      "assertions": [
+        "Uses supplied/workspace facts before generic defaults",
+        "Does not invent business facts, owners, estimates, dates, thresholds, or commitments",
+        "Produces the requested paste-ready decision or artefact",
+        "Uses Linear for work and Notion for durable context where relevant",
+        "Scales detail to position and risk"
+      ]
+    }
+  ]
+}

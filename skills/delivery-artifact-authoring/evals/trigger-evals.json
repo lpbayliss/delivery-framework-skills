@@ -1,0 +1,82 @@
+[
+  {
+    "query": "Write a Notion specification from these notes",
+    "should_trigger": true
+  },
+  {
+    "query": "Create a technical design document",
+    "should_trigger": true
+  },
+  {
+    "query": "Draft the testing plan for this migration",
+    "should_trigger": true
+  },
+  {
+    "query": "Build a staged release and rollback plan",
+    "should_trigger": true
+  },
+  {
+    "query": "Create the monitoring and dashboard brief",
+    "should_trigger": true
+  },
+  {
+    "query": "Write a blameless postmortem",
+    "should_trigger": true
+  },
+  {
+    "query": "Improve this PRD without inventing facts",
+    "should_trigger": true
+  },
+  {
+    "query": "Document API design alternatives and trade-offs",
+    "should_trigger": true
+  },
+  {
+    "query": "Make a success measurement plan",
+    "should_trigger": true
+  },
+  {
+    "query": "Right-size these delivery documents for a small change",
+    "should_trigger": true
+  },
+  {
+    "query": "Triage the incoming Linear queue",
+    "should_trigger": false
+  },
+  {
+    "query": "Facilitate a daily stand-up",
+    "should_trigger": false
+  },
+  {
+    "query": "Audit issue readiness",
+    "should_trigger": false
+  },
+  {
+    "query": "Implement the design in TypeScript",
+    "should_trigger": false
+  },
+  {
+    "query": "Create a one-line child task",
+    "should_trigger": false
+  },
+  {
+    "query": "Order the backlog",
+    "should_trigger": false
+  },
+  {
+    "query": "Configure a Linear cycle",
+    "should_trigger": false
+  },
+  {
+    "query": "Delete old specifications",
+    "should_trigger": false
+  },
+  {
+    "query": "Summarize an article unrelated to delivery",
+    "should_trigger": false
+  },
+  {
+    "query": "Review a pull request diff",
+    "should_trigger": false
+  }
+]

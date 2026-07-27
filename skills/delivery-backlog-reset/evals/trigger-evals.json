@@ -1,0 +1,82 @@
+[
+  {
+    "query": "Run a backlog reset for this team",
+    "should_trigger": true
+  },
+  {
+    "query": "Our Linear backlog cannot be trusted; plan a workshop",
+    "should_trigger": true
+  },
+  {
+    "query": "Expose hidden work and order what is next",
+    "should_trigger": true
+  },
+  {
+    "query": "Prepare a 60-minute backlog recovery session",
+    "should_trigger": true
+  },
+  {
+    "query": "Help define Ready and WIP during a reset",
+    "should_trigger": true
+  },
+  {
+    "query": "Triage all in-flight work as keep pause or stop",
+    "should_trigger": true
+  },
+  {
+    "query": "Adapt backlog recovery for a continuous-flow team",
+    "should_trigger": true
+  },
+  {
+    "query": "Book the cadences that keep the backlog healthy",
+    "should_trigger": true
+  },
+  {
+    "query": "Follow up two weeks after the backlog reset",
+    "should_trigger": true
+  },
+  {
+    "query": "Stop our backlog being a graveyard",
+    "should_trigger": true
+  },
+  {
+    "query": "Write one new Linear ticket",
+    "should_trigger": false
+  },
+  {
+    "query": "Facilitate a normal sprint review",
+    "should_trigger": false
+  },
+  {
+    "query": "Audit only the next three ready issues",
+    "should_trigger": false
+  },
+  {
+    "query": "Implement a WIP-limit plugin",
+    "should_trigger": false
+  },
+  {
+    "query": "Create a technical design",
+    "should_trigger": false
+  },
+  {
+    "query": "Triage one support request",
+    "should_trigger": false
+  },
+  {
+    "query": "Explain Kanban theory",
+    "should_trigger": false
+  },
+  {
+    "query": "Delete the backlog and start over",
+    "should_trigger": false
+  },
+  {
+    "query": "Prepare a project kickoff",
+    "should_trigger": false
+  },
+  {
+    "query": "Calculate average cycle time",
+    "should_trigger": false
+  }
+]

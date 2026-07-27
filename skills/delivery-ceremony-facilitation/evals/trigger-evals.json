@@ -1,0 +1,82 @@
+[
+  {
+    "query": "Facilitate our sprint review tomorrow",
+    "should_trigger": true
+  },
+  {
+    "query": "Create a retrospective agenda from these cycle facts",
+    "should_trigger": true
+  },
+  {
+    "query": "Prepare the daily flow review",
+    "should_trigger": true
+  },
+  {
+    "query": "Run a kickoff for this initiative",
+    "should_trigger": true
+  },
+  {
+    "query": "Make a sprint planning facilitation pack",
+    "should_trigger": true
+  },
+  {
+    "query": "Turn these notes into review decisions and actions",
+    "should_trigger": true
+  },
+  {
+    "query": "Prepare a blameless postmortem agenda",
+    "should_trigger": true
+  },
+  {
+    "query": "Help MC weekly refinement",
+    "should_trigger": true
+  },
+  {
+    "query": "Write a showcase script focused on demos",
+    "should_trigger": true
+  },
+  {
+    "query": "Document retro experiments in Notion and Linear",
+    "should_trigger": true
+  },
+  {
+    "query": "Write a standalone bug ticket",
+    "should_trigger": false
+  },
+  {
+    "query": "Audit 100 backlog items for readiness",
+    "should_trigger": false
+  },
+  {
+    "query": "Implement the release",
+    "should_trigger": false
+  },
+  {
+    "query": "Explain Linear keyboard shortcuts",
+    "should_trigger": false
+  },
+  {
+    "query": "Create only a technical design document",
+    "should_trigger": false
+  },
+  {
+    "query": "Triage one incoming issue",
+    "should_trigger": false
+  },
+  {
+    "query": "Delete a Notion page",
+    "should_trigger": false
+  },
+  {
+    "query": "Calculate cycle time from CSV",
+    "should_trigger": false
+  },
+  {
+    "query": "Configure monitoring alerts in code",
+    "should_trigger": false
+  },
+  {
+    "query": "Write a customer announcement",
+    "should_trigger": false
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "name": "delivery-framework",
+  "version": "1.0.0",
+  "description": "Portable skills for delivery tickets, triage, backlog readiness, ceremonies, lifecycle guidance, and delivery artefacts in Linear and Notion.",
+  "author": {
+    "name": "Luke Bayliss",
+    "url": "https://github.com/lpbayliss"
+  },
+  "homepage": "https://github.com/lpbayliss/delivery-framework-skills",
+  "repository": "https://github.com/lpbayliss/delivery-framework-skills",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "delivery",
+    "linear",
+    "notion",
+    "agile",
+    "kanban",
+    "tickets",
+    "triage",
+    "retrospectives"
+  ]
+}

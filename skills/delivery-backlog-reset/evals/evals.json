@@ -1,0 +1,47 @@
+{
+  "skill_name": "delivery-backlog-reset",
+  "evals": [
+    {
+      "id": 1,
+      "kind": "reset",
+      "prompt": "Prepare a one-hour reset for a team with hidden side work, 22 started issues, no trusted order, and no regular refinement.",
+      "expected_output": "A tailored real-Linear workshop with visibility, WIP triage, ordering, policies, and cadence commitments.",
+      "files": [],
+      "assertions": [
+        "Uses supplied/workspace facts before generic defaults",
+        "Does not invent business facts, owners, estimates, dates, thresholds, or commitments",
+        "Produces the requested paste-ready decision or artefact",
+        "Uses Linear for work and Notion for durable context where relevant",
+        "Scales detail to position and risk"
+      ]
+    },
+    {
+      "id": 2,
+      "kind": "ops",
+      "prompt": "Adapt the reset for an interrupt-heavy operational team that does not use sprints.",
+      "expected_output": "A flow-oriented variant that preserves outcomes without forcing Scrum ceremonies.",
+      "files": [],
+      "assertions": [
+        "Uses supplied/workspace facts before generic defaults",
+        "Does not invent business facts, owners, estimates, dates, thresholds, or commitments",
+        "Produces the requested paste-ready decision or artefact",
+        "Uses Linear for work and Notion for durable context where relevant",
+        "Scales detail to position and risk"
+      ]
+    },
+    {
+      "id": 3,
+      "kind": "followup",
+      "prompt": "Two weeks after a reset, work still rolls over and blocked items are ignored. Plan the health check.",
+      "expected_output": "A targeted follow-up using flow evidence and policy review, not backlog-size metrics.",
+      "files": [],
+      "assertions": [
+        "Uses supplied/workspace facts before generic defaults",
+        "Does not invent business facts, owners, estimates, dates, thresholds, or commitments",
+        "Produces the requested paste-ready decision or artefact",
+        "Uses Linear for work and Notion for durable context where relevant",
+        "Scales detail to position and risk"
+      ]
+    }
+  ]
+}

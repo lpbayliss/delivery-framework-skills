@@ -1,0 +1,47 @@
+{
+  "skill_name": "delivery-work-triage",
+  "evals": [
+    {
+      "id": 1,
+      "kind": "single",
+      "prompt": "Triage this new request: \u201cplease add SSO by Friday\u201d. There is no sponsor, affected user group, deadline source, or linked project.",
+      "expected_output": "A needs-information or refinement disposition with targeted questions and no invented urgency.",
+      "files": [],
+      "assertions": [
+        "Uses supplied/workspace facts before generic defaults",
+        "Does not invent business facts, owners, estimates, dates, thresholds, or commitments",
+        "Produces the requested paste-ready decision or artefact",
+        "Uses Linear for work and Notion for durable context where relevant",
+        "Scales detail to position and risk"
+      ]
+    },
+    {
+      "id": 2,
+      "kind": "duplicate",
+      "prompt": "Two Linear issues report the same export timeout, but the newer one includes a trace and customer impact. Decide what to do.",
+      "expected_output": "A duplicate decision preserving unique evidence on the canonical issue.",
+      "files": [],
+      "assertions": [
+        "Uses supplied/workspace facts before generic defaults",
+        "Does not invent business facts, owners, estimates, dates, thresholds, or commitments",
+        "Produces the requested paste-ready decision or artefact",
+        "Uses Linear for work and Notion for durable context where relevant",
+        "Scales detail to position and risk"
+      ]
+    },
+    {
+      "id": 3,
+      "kind": "batch",
+      "prompt": "Triage five supplied issues into accept, refine, duplicate, snooze, or decline and recommend relative neighbourhood, not fake absolute priority.",
+      "expected_output": "A concise evidence-backed table with explicit decision owners.",
+      "files": [],
+      "assertions": [
+        "Uses supplied/workspace facts before generic defaults",
+        "Does not invent business facts, owners, estimates, dates, thresholds, or commitments",
+        "Produces the requested paste-ready decision or artefact",
+        "Uses Linear for work and Notion for durable context where relevant",
+        "Scales detail to position and risk"
+      ]
+    }
+  ]
+}

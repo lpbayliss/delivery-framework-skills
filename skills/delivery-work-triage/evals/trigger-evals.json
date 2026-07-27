@@ -1,0 +1,82 @@
+[
+  {
+    "query": "Triage the new Linear inbox",
+    "should_trigger": true
+  },
+  {
+    "query": "Should we accept or decline this request?",
+    "should_trigger": true
+  },
+  {
+    "query": "Find a duplicate for this incoming bug",
+    "should_trigger": true
+  },
+  {
+    "query": "Route these new issues to the right teams",
+    "should_trigger": true
+  },
+  {
+    "query": "What information is missing before triage?",
+    "should_trigger": true
+  },
+  {
+    "query": "Snooze or close these stale requests with reasons",
+    "should_trigger": true
+  },
+  {
+    "query": "Review intake and recommend backlog placement",
+    "should_trigger": true
+  },
+  {
+    "query": "This request is too vague to estimate; decide next step",
+    "should_trigger": true
+  },
+  {
+    "query": "Batch triage these support-created issues",
+    "should_trigger": true
+  },
+  {
+    "query": "Prepare triage decisions for the weekly session",
+    "should_trigger": true
+  },
+  {
+    "query": "Write the full implementation for this accepted issue",
+    "should_trigger": false
+  },
+  {
+    "query": "Draft a Notion technical design",
+    "should_trigger": false
+  },
+  {
+    "query": "Facilitate a retrospective",
+    "should_trigger": false
+  },
+  {
+    "query": "Create acceptance criteria for one known ticket",
+    "should_trigger": false
+  },
+  {
+    "query": "Explain a finished incident timeline",
+    "should_trigger": false
+  },
+  {
+    "query": "Build a product roadmap deck",
+    "should_trigger": false
+  },
+  {
+    "query": "Delete all declined issues",
+    "should_trigger": false
+  },
+  {
+    "query": "Configure Linear billing",
+    "should_trigger": false
+  },
+  {
+    "query": "Review source code for bugs",
+    "should_trigger": false
+  },
+  {
+    "query": "Summarize a meeting",
+    "should_trigger": false
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "query": "Which tickets need more refinement?",
+    "should_trigger": true
+  },
+  {
+    "query": "Audit the next Linear cycle for readiness",
+    "should_trigger": true
+  },
+  {
+    "query": "Find stale and blocked work in progress",
+    "should_trigger": true
+  },
+  {
+    "query": "Prepare a refinement shortlist from this backlog",
+    "should_trigger": true
+  },
+  {
+    "query": "Why do these issues keep rolling over?",
+    "should_trigger": true
+  },
+  {
+    "query": "Check whether the top ten backlog items are ready",
+    "should_trigger": true
+  },
+  {
+    "query": "Audit issue owners and next actions",
+    "should_trigger": true
+  },
+  {
+    "query": "Find oversized or ambiguous tickets near the top",
+    "should_trigger": true
+  },
+  {
+    "query": "Create Linear views for readiness gaps",
+    "should_trigger": true
+  },
+  {
+    "query": "Review backlog health without polishing distant work",
+    "should_trigger": true
+  },
+  {
+    "query": "Write one bug ticket from these logs",
+    "should_trigger": false
+  },
+  {
+    "query": "Accept this incoming request",
+    "should_trigger": false
+  },
+  {
+    "query": "Facilitate the sprint demo",
+    "should_trigger": false
+  },
+  {
+    "query": "Create a release plan",
+    "should_trigger": false
+  },
+  {
+    "query": "Explain the Delivery lifecycle generally",
+    "should_trigger": false
+  },
+  {
+    "query": "Implement the top backlog issue",
+    "should_trigger": false
+  },
+  {
+    "query": "Close an issue without reviewing it",
+    "should_trigger": false
+  },
+  {
+    "query": "Design a Notion database schema",
+    "should_trigger": false
+  },
+  {
+    "query": "Estimate one fully specified ticket",
+    "should_trigger": false
+  },
+  {
+    "query": "Summarize completed cycle outcomes",
+    "should_trigger": false
+  }
+]

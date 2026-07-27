@@ -1,0 +1,47 @@
+{
+  "skill_name": "delivery-lifecycle-guidance",
+  "evals": [
+    {
+      "id": 1,
+      "kind": "next-step",
+      "prompt": "We have a problem statement and sponsor but no agreed outcome or evidence. Engineering is asking for tickets. What phase are we in and what next?",
+      "expected_output": "A Discovery assessment that resists premature ticket writing and identifies the next decision/evidence.",
+      "files": [],
+      "assertions": [
+        "Uses supplied/workspace facts before generic defaults",
+        "Does not invent business facts, owners, estimates, dates, thresholds, or commitments",
+        "Produces the requested paste-ready decision or artefact",
+        "Uses Linear for work and Notion for durable context where relevant",
+        "Scales detail to position and risk"
+      ]
+    },
+    {
+      "id": 2,
+      "kind": "gate",
+      "prompt": "A feature is deployed behind a flag, tests passed, but there is no monitoring or rollback owner. Has it passed Validating?",
+      "expected_output": "A gate assessment based on evidence, not deployment status alone.",
+      "files": [],
+      "assertions": [
+        "Uses supplied/workspace facts before generic defaults",
+        "Does not invent business facts, owners, estimates, dates, thresholds, or commitments",
+        "Produces the requested paste-ready decision or artefact",
+        "Uses Linear for work and Notion for durable context where relevant",
+        "Scales detail to position and risk"
+      ]
+    },
+    {
+      "id": 3,
+      "kind": "return",
+      "prompt": "Triage cannot estimate an item because the API contract and failure behavior are unresolved.",
+      "expected_output": "A recommendation to return to refinement with the smallest decisions/artefacts needed.",
+      "files": [],
+      "assertions": [
+        "Uses supplied/workspace facts before generic defaults",
+        "Does not invent business facts, owners, estimates, dates, thresholds, or commitments",
+        "Produces the requested paste-ready decision or artefact",
+        "Uses Linear for work and Notion for durable context where relevant",
+        "Scales detail to position and risk"
+      ]
+    }
+  ]
+}
