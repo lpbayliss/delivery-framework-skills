@@ -16,3 +16,15 @@ Recommended release sample:
 5. Artefact: release plan does not invent thresholds.
 6. Lifecycle: document existence is not treated as gate passage.
 7. Backlog reset: the real tool and follow-through are preserved.
+
+## Behavioural smoke run — 2026-07-27
+
+Independent agents executed 12 representative cases across all seven skills and wrote the outputs outside the repository for inspection. Coverage included:
+
+- ticket authoring, underspecified triage, and horizon-sensitive readiness;
+- sprint review, retrospective, release planning, and specification authoring;
+- all three lifecycle cases and sprint-free/continuous-flow backlog resets.
+
+Nine outputs contained explicit grades for 45 assertions: 45 passed and none failed. The other three generated outputs were read back against their ticket/triage/readiness assertions; no fabricated owners, dates, priorities, thresholds, remote mutations, or organization-specific claims were found.
+
+This is behavioural smoke evidence, not a statistically rigorous benchmark or trigger-optimization result. The reusable eval definitions remain the source for future model/version comparisons.
